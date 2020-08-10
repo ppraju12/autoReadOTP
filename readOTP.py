@@ -46,8 +46,6 @@ pytesseract.pytesseract.tesseract_cmd = 'C:\\Users\\*********\\AppData\\Local\\T
 
 print('Reading OTPs from Notifications for every 5 secs...')
 while True:
-    # Calling the function with the window co-ordinates of the Pop-up Notification
-    im_to_string(1361, 695, 1870, 999)
-    # Calling the function with the window co-ordinates of the message in Notification Tray
-    im_to_string(1320, 88, 1892, 399)
+    # Calling the function with the window co-ordinates of the Notification Tray
+    im_to_string(1300, 88, 1892, 999)
     time.sleep(5)
